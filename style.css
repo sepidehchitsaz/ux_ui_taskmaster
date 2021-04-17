@@ -5,7 +5,7 @@ body{
     height: 150px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
     .logo img{
         height: 80px;
     }
@@ -18,15 +18,16 @@ h1{
     font-size: 75px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
     h1{
-        font-size: 56px;
+        font-size: 44px;
     }
 }
 
 @media screen and (max-width:600px) {
     h1{
         font-size: 44px;
+        margin-top: 30px;
     }
 }
 
@@ -41,7 +42,7 @@ h2{
     
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
     h2{
         font-size: 44px;
     }
@@ -49,7 +50,7 @@ h2{
 
 @media screen and (max-width:600px) {
     h2{
-        font-size: 30px;
+        font-size: 34px;
         padding-bottom: 50px;
     }
 }
@@ -78,17 +79,17 @@ h2{
     
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .cards{
         font-size: 44px;
-        margin-left: 150px;
+        margin-left: 100px;
     }
         
 }
 @media screen and (max-width:600px){
     .cards{
         font-size: 30px;
-        margin-left: 50px;
+        margin-left: 40px;
 
     }
         
@@ -103,7 +104,7 @@ h2{
     
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .one img{
         height: 210px;
     }
@@ -129,7 +130,7 @@ h2{
     border-width: 3px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .two img{
         height: 200px;
     }
@@ -155,7 +156,7 @@ h2{
     border-width: 3px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .three img{
         height: 200px;
     }
@@ -182,7 +183,7 @@ h2{
     
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .four img{
         height: 200px;
     }
