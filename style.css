@@ -1,16 +1,35 @@
 body{
     background-image: linear-gradient(#1D3564 20%,#0056FD);
 }
-.logo img{
+/* .logo img{
     height: 150px;
-}
+    margin-left: 20px;
+    margin-top: 20px;
+} */
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .logo img{
         height: 80px;
+        margin-top: 10px;
     }
 
+} */
+
+.navbar-dark .navbar-brand img{
+    height: 150px;
+    margin-left: 20px;
+    
 }
+
+.bg-dark{
+    background-color: #1D3564 !important;
+}
+
+.navbar-nav{
+    margin-right: 70px;
+}
+
+
 h1{
     text-align: center;
     font-family: josefin sans;
@@ -27,7 +46,7 @@ h1{
 @media screen and (max-width:600px) {
     h1{
         font-size: 44px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 }
 
@@ -61,6 +80,8 @@ h2{
     margin-top: 10px;
     margin-bottom: 100px;
 }
+
+
 
 @media screen and (max-width:600px){
     .h {
