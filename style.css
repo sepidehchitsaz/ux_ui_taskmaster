@@ -5,11 +5,29 @@ body{
     height: 150px;
 }
 
+@media screen and (max-width:800px) {
+    .logo img{
+        height: 80px;
+    }
+
+}
 h1{
     text-align: center;
     font-family: josefin sans;
     color: #FFFBB5;
     font-size: 75px;
+}
+
+@media screen and (max-width:800px) {
+    h1{
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 44px;
+    }
 }
 
 h2{
@@ -23,6 +41,19 @@ h2{
     
 }
 
+@media screen and (max-width:800px) {
+    h2{
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h2{
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+}
+
 .h{
     background-color: #F58225;
     height: 10px;
@@ -30,6 +61,13 @@ h2{
     margin-bottom: 100px;
 }
 
+@media screen and (max-width:600px){
+    .h {
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+}
 
 
 .cards{
@@ -40,11 +78,42 @@ h2{
     
 }
 
+@media screen and (max-width:800px){
+    .cards{
+        font-size: 44px;
+        margin-left: 150px;
+    }
+        
+}
+@media screen and (max-width:600px){
+    .cards{
+        font-size: 30px;
+        margin-left: 50px;
+
+    }
+        
+}
 .one img{
     height: 300px;
     border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
 
     
+}
+
+@media screen and (max-width:800px){
+    .one img{
+        height: 200px;
+    }
+        
+}
+@media screen and (max-width:600px){
+    .one img{
+        height: 150px;
+    }
+        
 }
 .one a{
     text-decoration: none;
@@ -55,6 +124,22 @@ h2{
     height: 300px;
     margin-top: 20px;
     border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
+}
+
+@media screen and (max-width:800px){
+    .two img{
+        height: 200px;
+    }
+        
+}
+@media screen and (max-width:600px){
+    .two img{
+        height: 150px;
+    }
+        
 }
 .two a{
     text-decoration: none;
@@ -65,6 +150,22 @@ h2{
     height: 300px;
     margin-top: 20px;
     border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
+}
+
+@media screen and (max-width:800px){
+    .three img{
+        height: 200px;
+    }
+        
+}
+@media screen and (max-width:600px){
+    .three img{
+        height: 150px;
+    }
+        
 }
 .three a{
     text-decoration: none;
@@ -75,7 +176,23 @@ h2{
     height: 300px;
     margin-top: 20px;
     border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
     
+}
+
+@media screen and (max-width:800px){
+    .four img{
+        height: 200px;
+    }
+        
+}
+@media screen and (max-width:600px){
+    .four img{
+        height: 150px;
+    }
+        
 }
 .four a{
     text-decoration: none;
