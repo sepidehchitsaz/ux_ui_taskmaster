@@ -29,7 +29,27 @@ body{
     margin-right: 70px;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    color:#ffffff;
+    font-family: josefin sans;
+    font-size: 28px;
 
+}
+
+.dropdown-menu {
+    background-color:  #081735 !important;
+}
+
+.dropdown-item{
+    color: #FFFBB5;
+    font-size: 20px;
+    font-family: josefin sans;
+
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+    background-color:#F58225;
+}
 h1{
     text-align: center;
     font-family: josefin sans;
