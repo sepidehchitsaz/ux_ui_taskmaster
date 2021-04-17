@@ -105,13 +105,13 @@ h2{
 
 @media screen and (max-width:800px){
     .one img{
-        height: 200px;
+        height: 210px;
     }
         
 }
 @media screen and (max-width:600px){
     .one img{
-        height: 150px;
+        height: 160px;
     }
         
 }
