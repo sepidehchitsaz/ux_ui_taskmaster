@@ -1,55 +1,109 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: linear-gradient(#1D3564 20%,#0056FD);
+    margin:0;
+    padding: 0;
 }
-/* .logo img{
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D3564;
+    color: white;
+}
+ .logo img{
     height: 150px;
     margin-left: 20px;
     margin-top: 20px;
-} */
+} 
+ @media screen and (max-width:768px){
+     .logo img{
+         height: 100px;
+         margin-top: 10px;
 
-/* @media screen and (max-width:768px) {
-    .logo img{
-        height: 80px;
-        margin-top: 10px;
+     }
+ }
+
+ 
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color:#ffffff;
+    padding: 1rem;
+    display: block;
+    font-family: josefin sans;
+}
+
+.navbar-links li a:hover{
+    color: #F58225; 
+}
+
+.toggle-button {
+    position:absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .toggle-button {
+        display: flex;
+        margin-right: 30px;
+        margin-top: 40px;
     }
 
-} */
+    .navbar-links {
+        display: none; 
+        width: 100%;
+    }
 
-.navbar-dark .navbar-brand img{
-    height: 150px;
-    margin-left: 20px;
-    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
 
-.bg-dark{
-    background-color: #1D3564 !important;
-}
 
-.navbar-nav{
-    margin-right: 70px;
-}
-
-.navbar-dark .navbar-nav .nav-link{
-    color:#ffffff;
-    font-family: josefin sans;
-    font-size: 28px;
-
-}
-
-.dropdown-menu {
-    background-color:  #081735 !important;
-}
-
-.dropdown-item{
-    color: #FFFBB5;
-    font-size: 20px;
-    font-family: josefin sans;
-
-}
-
-.navbar .nav-item .dropdown-menu .dropdown-item:hover{
-    background-color:#F58225;
-}
 h1{
     text-align: center;
     font-family: josefin sans;
@@ -60,6 +114,7 @@ h1{
 @media screen and (max-width:768px) {
     h1{
         font-size: 44px;
+        margin-top: 50px;
     }
 }
 
