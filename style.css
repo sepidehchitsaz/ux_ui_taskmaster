@@ -19,6 +19,11 @@ body{
     margin-left: 20px;
     margin-top: 20px;
 } 
+
+.navbar-links.active {
+    display: block;
+}
+
  @media screen and (max-width:768px){
      .logo img{
          height: 100px;
@@ -98,9 +103,7 @@ body{
         padding: .5rem 1rem
     }
 
-    .navbar-links.active {
-        display: flex;
-    }
+   
 }
 
 
