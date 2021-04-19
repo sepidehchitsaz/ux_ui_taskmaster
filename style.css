@@ -97,10 +97,12 @@ body{
 
     .navbar-links li{
         text-align: center;
+        background-color:#061533;
     }
 
     .navbar-links li a {
         padding: .5rem 1rem
+        
     }
 
    
