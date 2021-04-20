@@ -32,6 +32,14 @@ body{
      }
  }
 
+ @media screen and (max-width:600px){
+    .logo img{
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+    }
+}
  
 .navbar-links ul{
     margin: 0;
@@ -49,6 +57,7 @@ body{
     padding: 1rem;
     display: block;
     font-family: josefin sans;
+    font-size: 20px;
 }
 
 .navbar-links li a:hover{
@@ -111,14 +120,14 @@ body{
 
 h1{
     text-align: center;
-    font-family: josefin sans;
+    font-family: londrina solid;
     color: #FFFBB5;
     font-size: 75px;
 }
 
 @media screen and (max-width:768px) {
     h1{
-        font-size: 44px;
+        font-size: 56px;
         margin-top: 50px;
     }
 }
@@ -130,13 +139,30 @@ h1{
     }
 }
 
+.h{
+    background-color: #F58225;
+    height: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .h {
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+}
+
 h2{
     text-align: center;
     font-family: josefin sans;
     color: #ffffff;
     font-weight: 400;
     margin-top: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     font-size: 60px;
     
 }
@@ -154,25 +180,41 @@ h2{
     }
 }
 
-.h{
-    background-color: #F58225;
-    height: 10px;
-    margin-top: 10px;
-    margin-bottom: 100px;
-}
-
-
-
-@media screen and (max-width:600px){
-    .h {
-        margin-top: 5px;
-        margin-bottom: 50px;
-    }
-
-}
-
-
 .cards{
+    margin: 50px 150px;
+}
+
+.cards img {
+    transition: 1s;
+    padding: 30px;
+    width: 600px;
+    border-radius: 20px 20px 20px 20px;
+    border-color: white;
+    border-width: 3px;
+
+}
+
+
+
+.cards img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width:768px){
+    .cards{
+        margin: 30px 50px;
+        margin-top: 30px;
+    }
+    
+    .cards img{
+        width:300px;
+        padding: 20px;
+    }
+}
+
+/* .cards{
     margin-left: 350px;
     font-size: 60px;
     font-family: josefin sans;
@@ -299,4 +341,4 @@ h2{
 .four a{
     text-decoration: none;
     color: #FFFBB5;
-}
+} */
