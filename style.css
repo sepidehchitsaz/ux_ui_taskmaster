@@ -188,11 +188,13 @@ h2{
     transition: 1s;
     padding: 30px;
     width: 600px;
-    border-radius: 20px 20px 20px 20px;
-    border-color: white;
-    border-width: 3px;
+    border-radius: 30px 30px 30px 30px;
+    
+    
 
 }
+
+
 
 
 
@@ -204,7 +206,7 @@ h2{
 
 @media screen and (max-width:768px){
     .cards{
-        margin: 30px 50px;
+        margin: 30px 70px;
         margin-top: 30px;
     }
     
